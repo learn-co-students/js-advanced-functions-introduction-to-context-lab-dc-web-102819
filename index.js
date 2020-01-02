@@ -1,12 +1,3 @@
-cRecord = createEmployeeRecord(["Julius", "Caesar", "General", 1000])
-        updatedBpRecord = createTimeInEvent(cRecord, "0044-03-15 0900")
-        updatedBpRecord = createTimeOutEvent(cRecord, "0044-03-15 0900")
-
-document.addEventListener('DOMContentLoaded', ()=>{
-	console.log('connected')
-})
-
-
 function createEmployeeRecord(input) {
 	return {
 		firstName: input[0],
